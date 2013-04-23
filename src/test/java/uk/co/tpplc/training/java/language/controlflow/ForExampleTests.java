@@ -24,13 +24,13 @@ public class ForExampleTests {
 	
 	@Test
 	public void goOverForEachOfAnArray(){
-		String[] numberStrings = {"one","two","three"};
+		String[] numberStrings = {"jab","berw","ocky"};
 		StringBuffer allStrings = new StringBuffer();
 		
 		for(String item : numberStrings){
 			allStrings.append(item);
 		}
-		assertEquals("onetwothree", allStrings.toString());
+		assertEquals("jabberwocky", allStrings.toString());
 	}
 	
 	@Test
